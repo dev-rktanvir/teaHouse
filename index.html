@@ -31,7 +31,41 @@
 <body class="font-manrope">
     <!-- Header -->
     <header>
+        <!-- Navbar -->
+        <nav class="max-w-7xl mx-auto px-6 py-5">
+            <div class="flex items-center justify-between">
 
+                <!-- Logo -->
+                <a href="#" class="text-3xl font-extrabold text-primary">
+                    Tea House
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#" class="text-secondary hover:text-primary transition">Home</a>
+                    <a href="#" class="text-secondary hover:text-primary transition">Menu</a>
+                    <a href="#" class="text-secondary hover:text-primary transition">About</a>
+                    <a href="#" class="text-secondary hover:text-primary transition">Contact</a>
+                </div>
+
+                <!-- Desktop Button -->
+                <div class="hidden md:block">
+                    <button
+                        class="bg-brand-gradient text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition">
+                        Order Now
+                    </button>
+                </div>
+
+                <!-- Mobile Hamburger -->
+                <button class="md:hidden text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+
+            </div>
+        </nav>
     </header>
 
     <!-- Main -->
